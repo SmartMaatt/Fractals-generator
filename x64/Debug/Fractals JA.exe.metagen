@@ -1,0 +1,56 @@
+  FractalsJA.MyForm.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Fractals JA, Version=0.0.*, Culture=Język niezmienny (kraj niezmienny): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Class AlgorythmData: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    setWidth(UInt32): PrivateScope, Public, HideBySig
+    setHeight(UInt32): PrivateScope, Public, HideBySig
+    setSize(Double): PrivateScope, Public, HideBySig
+    setMandel(Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+    setCArgX(Double): PrivateScope, Public, HideBySig
+    setCArgY(Double): PrivateScope, Public, HideBySig
+    setOffX(Double): PrivateScope, Public, HideBySig
+    setOffY(Double): PrivateScope, Public, HideBySig
+    getWidth(): PrivateScope, Public, HideBySig
+    getHeight(): PrivateScope, Public, HideBySig
+    getSize(): PrivateScope, Public, HideBySig
+    getMandel(): PrivateScope, Public, HideBySig
+    getCArgX(): PrivateScope, Public, HideBySig
+    getCArgY(): PrivateScope, Public, HideBySig
+    getOffX(): PrivateScope, Public, HideBySig
+    getOffY(): PrivateScope, Public, HideBySig
+Class FileOrganiser: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    insertData(Int32, Int32): PrivateScope, Public, HideBySig
+    saveFile(Object, EventArgs): PrivateScope, Public, HideBySig
+    getBmpData(): PrivateScope, Public, HideBySig
+    getWidth(): PrivateScope, Public, HideBySig
+    getHeight(): PrivateScope, Public, HideBySig
+    deleteData(): PrivateScope, Public, HideBySig
+Class ThreadsOrganise: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    generateFractal(Object): PrivateScope, Public, HideBySig
+    eval(ComplexNumber IsConst, UInt32, ComplexNumber IsConst): PrivateScope, Public, HideBySig
+    lerp(Double, Double, Double, Double, Double): PrivateScope, Public, HideBySig
+    compColor(UInt32, Boolean(HasFieldMarshal), Boolean(HasFieldMarshal), Boolean(HasFieldMarshal)): PrivateScope, Public, HideBySig
+Class FractalsJA.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    FileOrganiser fileOrg : Public
