@@ -1,0 +1,27 @@
+﻿  Assembling asmFractal (tmp).asm...
+asmFractal (tmp).asm(2): error A2013: .MODEL must precede this directive
+asmFractal (tmp).asm(4): error A2034: must be in segment block : checkMMXCapability
+asmFractal (tmp).asm(5): error A2034: must be in segment block
+asmFractal (tmp).asm(6): error A2008: syntax error : pushfq
+asmFractal (tmp).asm(7): error A2034: must be in segment block
+asmFractal (tmp).asm(8): error A2034: must be in segment block
+asmFractal (tmp).asm(9): error A2034: must be in segment block
+asmFractal (tmp).asm(10): error A2034: must be in segment block
+asmFractal (tmp).asm(11): error A2008: syntax error : popfq
+asmFractal (tmp).asm(12): error A2008: syntax error : pushfq
+asmFractal (tmp).asm(13): error A2034: must be in segment block
+asmFractal (tmp).asm(14): error A2034: must be in segment block
+asmFractal (tmp).asm(15): error A2034: must be in segment block
+asmFractal (tmp).asm(17): error A2034: must be in segment block
+asmFractal (tmp).asm(18): error A2034: must be in segment block
+asmFractal (tmp).asm(19): error A2034: must be in segment block
+asmFractal (tmp).asm(20): error A2034: must be in segment block
+asmFractal (tmp).asm(21): error A2034: must be in segment block
+asmFractal (tmp).asm(22): error A2034: must be in segment block
+asmFractal (tmp).asm(23): error A2034: must be in segment block
+asmFractal (tmp).asm(25): error A2034: must be in segment block
+asmFractal (tmp).asm(26): error A2034: must be in segment block
+asmFractal (tmp).asm(27): error A2034: must be in segment block
+asmFractal (tmp).asm(28): error A2034: must be in segment block
+asmFractal (tmp).asm(29): fatal error A1010: unmatched block nesting : checkMMXCapability
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Professional\Common7\IDE\VC\VCTargets\BuildCustomizations\masm.targets(69,5): error MSB3721: Polecenie ml.exe /c /nologo /Zi /Fo"Debug\asmFractal (tmp).obj" /W3 /errorReport:prompt  /Ta"asmFractal (tmp).asm" zostało zakończone; kod błędu: 1.
